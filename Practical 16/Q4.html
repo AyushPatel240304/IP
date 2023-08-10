@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Practical 16.4</title>
+<script>
+function a()
+{
+	var na= document.getElementById("name").value;
+	var rol=document.getElementById("roll").value;
+	var br=document.getElementById("branch").value;
+	document.getElementById("outname").value =na;
+	document.getElementById("outroll").value =rol;
+	document.getElementById("outbranch").value =br;
+}
+</script>
+</head>
+<body>
+<table border="10px solid black">
+<tr>
+	<td colspan="2">Personal Information</td>
+</tr>
+<tr>
+	<td>Name:</td>
+	<td><input id="name"></td>
+</tr>
+<tr>
+	<td>Roll NO.:</td>
+	<td><input id="roll"></td>
+</tr>
+<tr>
+	<td>Branch:</td>
+	<td><input id="branch"></td>
+</tr>
+</table>
+<button onclick="a()">Submit</button>
+<br><br><br>
+<table>
+<tr>
+	<td colspan="2">Personal Information</td>
+</tr>
+<tr>
+	<td>Name:</td>
+	<td><input id="outname"></td>
+</tr>
+<tr>
+	<td>Roll NO.:</td>
+	<td><input id="outroll"></td>
+</tr>
+<tr>
+	<td>Branch:</td>
+	<td><input id="outbranch"></td>
+</tr>
+</table>
+</body>
+</html>
+

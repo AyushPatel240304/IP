@@ -1,0 +1,146 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>T22162171032_ex.15</title>
+    <style>
+    body{
+      font-family: Calibri, Helvetica, sans-serif;
+      background-color: green;
+    }
+    .container {
+        padding: 70px;
+      background-color: lightblue;
+    }
+
+    input[type=text], input[type=password], input[type=email], input[type=number], textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 2px 0 15px 0;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+    }
+    input[type=text]:focus, input[type=password]:focus {
+      background-color: orange;
+      outline: none;
+    }
+     div {
+                padding: 10px 0;
+             }
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+    .registerbtn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    .registerbtn:hover {
+      opacity: 1;
+    }
+        select{
+            position: relative;
+      font-family: Arial;
+        background-color: cornsilk;
+            border-color: transparent transparent #fff transparent;
+      top: 7px;
+            
+        }
+        button{
+    background: #14EEBD;
+    color: #2531E7;
+    border: 1px solid #eee;
+            padding: 15px 100px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    }
+        button:hover {
+            align-content: center;
+    background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+            padding: 15px 100px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    }
+        .center {
+      margin: 0;
+      position: absolute;
+      top: 195%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    </style>
+    </head>
+    <body>
+    <form>
+      <div class="container">
+      <center>  <h1> Cryptiv Services Survey Form</h1> </center>
+      <hr>
+      <label>Name: </label> 
+    <input type="text" name="firstname" placeholder= "Firstname" size="15" required /> 
+    Email ID:
+    <input type="email" name="email_id" placeholder="Email" size="50" required/> 
+    <div>
+        <label> 
+    Phone:
+    </label>
+    <input type="number" name="Phone number" placeholder="Phone number"  value="+91" size="10" required/> 
+    <div>
+    <label> 
+    Gender:
+    </label><br>
+    <input type="radio" value="Male" name="gender"> Male 
+    <input type="radio" value="Female" name="gender"> Female 
+    <input type="radio" value="Other" name="gender"> Other
+    </div>
+    Service used:
+    <input type="text" name="serviceused" placeholder="Service Used" size="50" required/>
+        <br>
+    State:
+    <input type="text" name="State" placeholder="State" size="25" required>
+    City:
+    <input type="text" name="city" placeholder="City" size="20"required>
+    Pincode:
+    <input type="text" name="Pincode" placeholder="Pincode" size="6" required>
+        
+        <label> 
+    Time from using:
+    </label> 
+        <br>
+    <select>
+    <option value="Time"> Select</option>
+    <option value="mever used">Never used</option>
+    <option value="<1 year">< 1 year</option>
+    <option value="1-5 years">1-5 years</option>
+    <option value="6-10 years">6-10 years</option>
+    <option value=">10 years">>10 years</option>
+    </select>
+    </div>
+          <br>
+    Features of the services you liked the most:
+        <textarea rows="4" cols="80" name="liked features"></textarea>
+    Things you would like to change :
+        <textarea rows="4" cols="80" name="suggested changes"></textarea>
+        <br>
+    Upload a image of any problem you faced:<br>
+    <input type = "file" name = "fileupload" accept = "image/*" />
+          <br>
+          <br>
+          <div class="center">
+          <button type = "submit" name = "submit" value = "Submit">Submit</button>
+              </div>
+        </div>
+        </form>
+        </body>
+    </html>

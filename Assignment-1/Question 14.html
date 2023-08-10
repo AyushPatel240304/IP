@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>T22162171032_ex.14</title>
+    </head>
+    <body>
+        <h2>Various Fields of HTML Forms with example.</h2>
+        <p style="font-size: 25px">When is HTML form required?</p>
+        <p style="font-size: 20px">HTML Forms are required, when you want to collect some data from the site visitor. For example, during user registration you would like to collect information such as name, email address, credit card, etc. A form will take input from the site visitor and then will post it to a back-end application such as CGI, ASP Script or PHP script etc. The back-end application will perform required processing on the passed data based on defined business logic inside the application.</p>
+        <br>
+        <h3>1. Single-line text input controls</h3>
+        <p style="font-size: 18px">This control is used for items that require only one line of user input, such as search boxes or names. They are created using HTML "input" tag.</p>
+         <form>
+         First name: <input type = "text" name = "first_name" />
+         <br>
+         Last name: <input type = "text" name = "last_name" />
+        </form>
+        <br>
+        <h3>2. Password input controls</h3>
+        <p style="font-size: 18px">This is also a single-line text input but it masks the character as soon as a user enters it. They are also created using HTML "input" tag but type attribute is set to password.</p>
+        <form >
+         User ID : <input type = "text" name = "user_id" />
+         <br>
+         Password: <input type = "password" name = "password" />
+      </form>
+        <br>
+        <h3>3. Multiple-Line Text Input Controls</h3>
+        <p style="font-size: 18px">This is used when the user is required to give details that may be longer than a single sentence. Multi-line input controls are created using HTML "textarea" tag.</p>
+        <form>
+         Description : <br />
+         <textarea rows = "5" cols = "50" name = "description">
+            
+         </textarea>
+      </form>
+        <br>
+        <h3>4. Checkbox Control</h3>
+        <p style="font-size: 18px">Checkboxes are used when more than one option is required to be selected. They are also created using HTML "input" tag but type attribute is set to checkbox.</p>
+        <form>
+         <input type = "checkbox" name = "maths" value = "on"> Maths
+         <input type = "checkbox" name = "physics" value = "on"> Physics
+      </form>
+        <br>
+        <h3>5. Radio Button Control</h3>
+        <p style="font-size: 18px">Radio buttons are used when out of many options, just one option is required to be selected. They are also created using HTML "input" tag but type attribute is set to radio.</p>
+         <form>
+         <input type = "radio" name = "subject" value = "maths"> Maths
+         <input type = "radio" name = "subject" value = "physics"> Physics
+      </form>
+        <br>
+        <h3>6. Select Box Control</h3>
+        <p style="font-size: 18px">A select box, also called drop down box which provides option to list down various options in the form of drop down list, from where a user can select one or more options.</p>
+        <form>
+         <select name = "dropdown">
+            <option value = "Select" selected>Select</option>
+            <option value = "Maths">Maths</option>
+            <option value = "Physics">Physics</option>
+         </select>
+      </form>
+        <br>
+        <h3>7. File Upload Box</h3>
+        <p style="font-size: 18px">If you want to allow a user to upload a file to your web site, you will need to use a file upload box, also known as a file select box. This is also created using the "input" element but type attribute is set to file.</p>
+        <form>
+         <input type = "file" name = "fileupload" accept = "image/*" />
+      </form>
+        <br>
+        <h3>8. Button Controls</h3>
+        <p style="font-size: 18px">There are various ways in HTML to create clickable buttons. You can also create a clickable button using "input" tag by setting its type attribute to button.</p>
+        <form>
+         <input type = "submit" name = "submit" value = "Submit" />
+         <input type = "reset" name = "reset"  value = "Reset" />
+         <input type = "button" name = "ok" value = "OK" />
+      </form>
+    </body>
+</html>

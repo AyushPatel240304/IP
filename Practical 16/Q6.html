@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Practical 16.6</title>
+<script>
+function fibbonaci()
+{	
+	var a=parseInt(document.getElementById("b").value);
+	let c=0,d=1,next_num;
+	for(let i=0;i<a;i++)
+	{
+		document.write("<br>" + c);
+		next_num = c+ d;
+		c = d;
+		d = next_num;
+	}
+}
+</script>
+<body>
+<p>Enter the number:<input id="b"></p>
+<button onclick="fibbonaci()">Submit</button>
+</body>
+</html>
+
+		

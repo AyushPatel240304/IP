@@ -1,0 +1,41 @@
+@font-face
+{
+	font-family:dev;
+	src:url(RubikGlitch-Regular.ttf);
+}
+body{
+	background-color: grey;
+}
+h1
+{
+	color:red;
+}
+p
+{
+	color:blue;
+}
+#back1
+{
+	background-color:#ADD8E6;
+	border-radius:10px;
+}
+#back1:hover
+{
+	transform: rotate(90deg);
+	transition-duration: 3s;
+	transition-timing-function: ease-in;
+}
+#back2
+{
+	background-color:#ADD8E6;
+}
+#back2:hover
+{
+	transform: rotate(180deg);
+	transition-duration: 3s;
+	transition-timing-function: ease-in;
+}
+div
+{
+	font-family:dev;
+}

@@ -1,0 +1,16 @@
+div{
+  width:500px;
+  height:500px;
+  background-color:blue;
+  animation-name:kekw;
+  animation-duration: 3s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes kekw{
+  0% {background-image:url("1.jpg");}
+25% {background-image:url("2.jpg");}
+50%{background-image:url("3.jpeg");}
+75%{background-image:url("4.jpeg");}
+100%{background-image:url("5.jpg");}
+}

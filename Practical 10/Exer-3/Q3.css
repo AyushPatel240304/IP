@@ -1,0 +1,24 @@
+.c1{
+	color:red;
+}
+.c2{
+	color:blue;
+}
+.c3{
+	text-algin:center;
+}
+.c4{
+	text-decoration-line:underline;
+}
+.c5{
+	text-decoration-line:overline;
+}
+.c6{
+	text-transform:uppercase;
+}
+.c7{
+	letter-spacing:2px;
+}
+.c8{
+	text-shadow: 2px 2px;
+}

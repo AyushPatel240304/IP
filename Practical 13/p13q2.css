@@ -1,0 +1,24 @@
+@font-face
+{
+	font-family:dev;
+	src:url(RubikGlitch-Regular.ttf);
+}
+.p1{
+	background-color:blue;
+	color:white;
+}
+p{
+	color:blue;
+}
+div:hover{
+	border-left:10px solid black;
+	background-color:gray;
+	color:black;
+	opacity:0.5;
+}
+body{
+	padding:5px 10px 5px 10px;
+}
+
+	
+	

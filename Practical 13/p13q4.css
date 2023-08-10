@@ -1,0 +1,29 @@
+input[type=email]{
+	max-width:300px;
+	padding-left:20px;
+	border-bottom:1px solid gray;
+}
+input[type=password]{
+	max-width:300px;
+	padding-left:20px;
+	border-bottom:1px solid gray;
+}
+.login{
+	background-color:silver;
+	color:black;
+}
+input[type=email]:focus{
+	background-color:gray;
+	color:white;
+	border:3px solid red;
+}
+input[type=password]:focus{
+	background-color:gray;
+	color:white;
+	border:3px solid red;
+}
+input[type=submit]{
+	max-width:300px;
+	background-color:gray;
+	color:white;
+}

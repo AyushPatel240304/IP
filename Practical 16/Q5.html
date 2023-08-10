@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Practical 16.5</title>
+</head>
+<body>
+<h1><center>Factorial Program</center></h1>
+<p>Enter a Number:<input id="numb"></p>
+<button onclick="fact2()">Factorial</button>
+<p>The Factorial is <input id="a"></p>
+<script>
+function fact(d)
+{
+	if(d==0){
+	return 1;
+	}
+	else{
+	return d*fact(d-1);
+	}
+}
+function fact2()
+{
+	var d = parseInt(document.getElementById("numb").value);
+	var b = fact(d);
+	document.getElementById("a").value =b; 
+}
+</script>
+</body>
+</html>

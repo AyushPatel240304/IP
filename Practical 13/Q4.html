@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>Practical 13.4</title>
+<link rel="stylesheet" type="text/css" href="p13q4.css">
+</head>
+<body style="background-color:yellow;">
+<h1><u><center><strong>Login Form</strong></center></u></h1><br>
+<div class="login">
+<form>
+<label>E-mail: &nbsp&nbsp&nbsp&nbsp</label>
+<input type="email" placeholder="someone@xyz.com" required autofocus><br><br>
+<label>Password: </label>
+<input type="password" pattern="(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*?[#?!@$%^&*-_\]\[]).{6,8}" placeholder="Enter your Password(6-8 Characters)" title="Must contain at least one number,one uppercase,one lowercase letter and special charcater, and 6 to 8 characters" required><br><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</div>
+</body>
+</html>

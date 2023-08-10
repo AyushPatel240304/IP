@@ -1,0 +1,39 @@
+body
+{
+	background-color: grey;
+font-family:"Trirong", serif;
+font-size: 28px;
+}
+
+h2
+{text-shadow: 2px 2px #FF0000;
+}
+
+#P
+{border-radius:20px;
+background-color:#00bfff;
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 5px;
+padding-left: 10px;
+transition: width 2s, height 2s, transform 3s;
+transition-timing-function: linear;
+transition-timing-function: ease-in;
+}
+
+#P:hover
+{transform: rotateZ(135deg);
+}
+
+p{
+border-radius:20px;
+background-color:black;
+color:white;
+transition: width 2s, height 2s, transform 3s;
+transition-timing-function: linear;
+transition-timing-function: ease-in;
+}
+
+p:hover
+{transform: rotate(5deg);
+}

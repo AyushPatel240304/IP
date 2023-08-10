@@ -1,0 +1,21 @@
+#a{
+	background-image:url(https://imgs.search.brave.com/4wy9_J__h6Un8_5QV3amS_vbWbKvV7naP5bU3vJ6lt0/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMuYnVzaW5lc3Np/bnNpZGVyLmNvbS9p/bWFnZS81NGU3NWM3/OWVhYjhlYTJlMGNk/OGVhOGQvaW1hZ2Uu/anBn);
+	background-repeat:no-repeat;
+	background-size:300px 300px;
+}
+p{
+	color:blue;
+	padding-left:50px;
+}
+p:hover{
+	background-color:red;
+	border:2px dotted black;
+}
+h1{
+	color:red;
+}
+h1:hover{
+	background-color:blue;
+	border:2px dotted black;
+}
+	

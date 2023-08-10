@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>T22162171032_ex.17</title>
+    </head>
+    <body>
+    <h2>Example of different attributes of <u>Input</u> tag.</h2>
+        <h3>1. The <u>maxlength</u> attribute specifies the maximum number of characters allowed in an input field:</h3>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" size="50"><br>
+  <label for="pin">PIN:</label><br>
+  <input type="text" id="pin" name="pin" maxlength="4" size="50"><br><br>
+  <input type="submit" value="Submit">
+</form>
+<br>
+        <h3>2. The <u>readonly</u> attribute specifies that an input field should be read-only (cannot be changed):</h3>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Ayush" readonly><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Patel"><br><br>
+  <input type="submit" value="Submit">
+</form>
+        <br>
+        <h3>3. The disabled attribute specifies that an input field should be disabled (unusable and un-clickable):</h3>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="Ayush" disabled><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Patel"><br><br>
+  <input type="submit" value="Submit">
+</form>
+        <br>
+        <h3>4. The size attribute specifies the width (in characters) of an input field:</h3>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" size="50"><br>
+  <label for="pin">PIN:</label><br>
+  <input type="text" id="pin" name="pin" size="4"><br><br>
+  <input type="submit" value="Submit">
+</form>
+        <br>
+        <h3>5. The step attribute specifies the legal number intervals for an input element.</h3>
+<form>
+  <label for="points">Points:</label>
+  <input type="number" id="points" name="points" step="3">
+  <input type="submit" value="Submit">
+</form>
+        <br>
+        <h3>6. The autofocus attribute specifies that the input field should automatically get focus when the page loads.</h3>
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" autofocus><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+        <br>
+        <h3>7. The autocomplete attribute specifies whether or not an input field should have autocomplete enabled.</h3>
+        <form action="/action_page.php" autocomplete="on">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <input type="submit" value="Submit">
+</form>
+    </body>
+</html>

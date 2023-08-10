@@ -1,0 +1,20 @@
+div{
+  width:300px;
+  height:300px;
+  background-color:blue;
+  animation-name:kekw;
+  animation-duration: 50s;
+}
+
+@keyframes kekw{
+  0% {background-color: blue;}
+10% {background-color: yellow;}
+20%{background-color: blue;}
+30%{background-color: green;}
+40%{background-color:orange;}
+50%{background-color:cyan;}
+60%{background-color:purple;}
+70%{background-color:lime;}
+80%{background-color:violet;}
+90%{background-color:black;}
+}

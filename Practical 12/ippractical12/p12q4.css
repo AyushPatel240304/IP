@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(to bottom, #999966 -1%, #999966 124%);
+}
+table   {
+         margin-left: auto;
+         margin-right: auto;
+         border: 2px wavy grey;
+        }
+table,td,th{
+            text-align: center;
+	        padding:10px;
+	        border-collapse: collapse;
+	        border: 2px solid grey;
+           }
+td{
+	padding-left: 15px;
+  }
+tr:HOVER{
+         background-color: blue;
+	     color: white;
+        }

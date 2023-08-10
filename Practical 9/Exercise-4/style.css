@@ -1,0 +1,59 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body{
+	background: url("desk.jpg") no-repeat;
+	background-size: cover;
+}
+
+.Login-form{
+	width: 350;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: #fff;
+}
+
+.Login-form h1 {
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+
+.Login-form p {
+	font-size: 20px;
+	margin: 15px 0;
+}
+
+.Login-form input {
+	font-size: 16px;
+	width: 100%;
+	padding: 15px 10px;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+}
+#sub{
+ font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+	padding: 10px 15px;
+	width: 50%;
+	border-radius: 5px;
+	border: 0;
+}
+#res{
+	font-size: 18px;
+	font-weight: bold;
+	margin: -60px 200px;
+	padding: 10px 15px;
+	width: 50%;
+	border-radius: 5px;
+	border: 0;
+
+}

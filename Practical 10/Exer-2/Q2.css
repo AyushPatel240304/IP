@@ -1,0 +1,12 @@
+#p1{
+	color: blue;
+}
+
+body{
+	background-color: lightslategrey;
+}
+div{
+	background-image: url("1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}

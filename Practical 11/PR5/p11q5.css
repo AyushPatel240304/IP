@@ -1,0 +1,10 @@
+span
+{
+	border:1px solid white;
+	outline-style:solid;
+	outline-color:red;
+}
+ul
+{
+	list-style-image: url('3.jpeg');
+}

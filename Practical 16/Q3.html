@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Practical 16.3</title>
+<script>
+function a()
+{
+	var b=parseInt(document.getElementById("c").value);
+	if((b%2) == 0)
+	{
+		document.getElementById("d").value = ( b + " is Even");
+	}
+	else
+	{
+		document.getElementById("d").value = ( b + " is Odd");
+	}
+}
+</script>
+<body>
+<p>Enter A number:<input id="c"></p>
+<button onclick="a()">Submit</button>
+<p> Output : <input id="d"></p>
+</body>
+</html>
